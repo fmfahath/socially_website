@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -36,4 +38,21 @@ nav ul li a{
     text-decoration: none;
     color: #333;
     font-weight: 400;
+}
+
+.login-btn{
+    text-decoration: none   ;
+    color: #333;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.download-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px 40px;
+    background-image: linear-gradient(45DEG, #DF4881, #C430D7);
+    border-radius: 30PX;
+    border-top-right-radius: 0  ;
 }
